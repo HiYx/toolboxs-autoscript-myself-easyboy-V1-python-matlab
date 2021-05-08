@@ -1,0 +1,109 @@
+# Project information
+site_name: '单词背诵记录'
+site_description: '单词背诵记录A'
+site_author: '严义雄'
+site_url: 'https://#'
+
+# Repository
+repo_name: 'Github'
+repo_url: 'https://github.com/Hiyx'
+
+# Copyright
+copyright: 'Copyright &copy; 2020 yanyx'
+
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'zh'
+  palette:
+    primary: 'blue grey'
+    accent: 'orange'
+  font:
+    text: 'Noto Sans SC'
+    code: 'Ubuntu Mono'
+  logo:
+    icon: 'lock_open'
+  search:
+    language: 'en, de, ru, ja'
+    tokenizer: '[\s\-\.]+'
+  #favicon: 'assets/images/favicon.ico'
+  disqus: 'eason'
+
+# 注意中英文符号
+nav:
+  - 一. plan: index.md
+  - 二. day record:
+      - 2020年3月16日: 会议/3-16.md
+      - 2020年3月17日: 会议/3-17.md
+      - 2020年3月18日: 会议/3-18.md
+      - 2020年3月19日: 会议/3-19.md
+      - 2020年3月20日: 会议/3-20.md
+      - 2020年3月21日: 会议/3-21.md
+      - 2020年3月22日: 会议/3-22.md
+      - 2020年3月23日: 会议/3-23.md
+      - 2020年3月24日: 会议/3-24.md
+      - 2020年3月25日: 会议/3-25.md
+      - 2020年3月26日: 会议/3-26.md
+      - 2020年3月27日: 会议/3-27.md
+      - 2020年3月28日: 会议/3-28.md
+      - 2020年3月29日: 会议/3-29.md
+      - 2020年3月30日: 会议/3-30.md
+      - 2020年3月31日: 会议/3-31.md
+      - 2020年4月1日: 会议/4-1.md
+      - 2020年4月2日: 会议/4-2.md
+      - 2020年4月3日: 会议/4-3.md
+      - 2020年4月4日: 会议/4-4.md
+      - 2020年4月5日: 会议/4-5.md
+      - 2020年4月6日: 会议/4-6.md
+      - 2020年4月7日: 会议/4-7.md
+      - 2020年4月8日: 会议/4-8.md
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/HaliBotebie'
+    - type: 'twitter'
+      link: 'https://twitter.com/yanyixiong'
+    - type: 'linkedin'
+      link: '#'
+
+
+    
+extra_javascript:
+  - 'javascripts/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js
+  - js/umlconvert.js
+  
+  
+markdown_extensions:
+  - toc
+  - smarty
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences: [
+            {name: flow, class: uml-flowchart}
+           ,{name: sequence, class: uml-sequence-diagram}
+           ,{name: mermaid, class: uml-mermaid}
+      ]
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

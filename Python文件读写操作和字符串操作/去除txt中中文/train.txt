@@ -1,0 +1,852 @@
+A a 
+abs 绝对值, 模 
+acos 反余弦 
+acosh 反双曲余弦 
+acot 反余切 
+acoth 反双曲余切 
+acsc 反余割 
+acsch 反双曲余割 
+all 所有元素均非零则为真 
+alpha 透明控制 
+angle 相角 
+ans 最新表达式的运算结果 
+any 有非零元则为真 
+area 面域图 
+asec 反正割 
+asech 反双曲正割 
+asin 反正弦 
+asinh 反双曲正弦 
+atan 反正切 
+atan2 四象限反正切 
+atanh 反双曲正切 
+autumn 红、黄浓淡色 
+axis 轴的刻度和表现 
+
+B b 
+bar 直方图 
+binocdf 二项分布概率 
+binopdf 二项分布累积概率 
+binornd 产生二项分布随机数组 
+blanks 空格符号 
+bode 给出系统的对数频率曲线 
+bone 蓝色调浓淡色阵 
+box 坐标封闭开关 
+break 终止最内循环 
+brighten 控制色彩的明暗 
+butter ButterWorth低通滤波器 
+
+C c 
+caxis （伪）颜色轴刻度 
+cd 设置当前工作目录 
+cdf2rdf 复数对角型转换到实块对角型 
+ceil 朝正无穷大方向取整 
+cell 创建单元数组 
+char 创建字符串数组或者将其他类型 
+变量转化为字符串数组 
+charfcn Maple函数 
+Children 图形对象的子对象 
+clabel 等高线标注 
+class 判别数据类别 
+clc 清除指令窗中显示内容 
+clear 从内存中清除变量和函数 
+clf 清除当前图形窗图形 
+close 关闭图形窗 
+collect 合并同类项 
+Color 图形对象色彩属性 
+colorbar 显示色条 
+colorcube 三浓淡多彩交错色 
+colordef 定义图形窗色彩 
+colormap 设置色图 
+comet 彗星状轨迹图 
+comet3 三维彗星动态轨迹线图 
+compass 射线图;主用于方向和速度 
+cond 矩阵条件数 
+conj 复数共轭 
+continue 将控制转交给外层的for或while循环 
+contour 等高线图 
+contourf 填色等高线图 
+conv 卷积和多项式相乘 
+cool 青和品红浓淡色图 
+copper 线性变化纯铜色调图 
+corrcoef 相关系数 
+cos 余弦 
+cosh 双曲余弦 
+cot 余切 
+coth 双曲余切 
+cov 协方差矩阵 
+csc 余割 
+csch 双曲余割 
+cumsum 元素累计和 
+cumtrapz 梯形法累计积分 
+
+D d 
+dblquad 二重（闭型）数值积分指令 
+deconv 解卷和多项式相除 
+del2 计算曲率 
+demos 演示函数 
+det 行列式的值 
+diag 创建对角阵，抽取对角向量 
+diff 求导数,差分和近似微分 
+digits 控制符号数值的有效数字位数 
+dir 列出目录清单 
+dirac 单位冲激函数 
+disp 显示矩阵和文字内容 
+disttool 概率分布计算交互界面 
+doc 列出指定工具包中所有函数名 
+docsearch 进行多词条检索 
+double 把符号常数转化为16位相对精度的浮点数值对象 
+drawnow 刷新屏幕 
+dsolve 求解符号常微分方程 
+
+E e 
+edit 矩阵编辑器,打开M文件 
+Ei maple 指数积分 
+eig 矩阵特征值和特征向量 
+end 数组的最大下标，结束for，while，if 语句 
+eps 浮点相对误差 
+EraseMode 图形对象属性 
+error 显示错误信息 
+exit 关闭MATLAB 
+exp 指数 
+expand 对指定项展开 
+expm 矩阵指数 
+eye 单位阵 
+ezcontour 画等位线 
+ezcontourf 画填色等位线 
+ezmesh 画网线图 
+ezmeshc 画带等位线的网线图 
+ezplot 绘制符号表达式的二维图形 
+ezplot3 画三维曲线 
+ezpolar 画极坐标曲线 
+ezsurf 画曲面图 
+ezsurfc 画带等位线的曲面图 
+
+F f 
+factor 进行因式或因子分解 
+false 按指定大小创建全0逻辑数组 
+feather 从X轴出发的复数向量图，羽毛图 
+feval 函数宏指令 
+fill 多边形填色图 
+find 寻找非数单下标标识 
+findsym 确认表达式中自由符号变量 
+fix 朝零方向取整 
+flag 红-白-蓝-黑交错色图 
+fliplr 矩阵的左右翻转 
+flipud 矩阵的上下翻转 
+floor 朝负无穷大方向取整 
+fminbnd 非线性函数在某区间中极小值 
+fminsearch 单纯形法求多元函数极值点指令 
+for (end) 按规定次数重复执行语句 
+format 设置数据输出格式 
+fourier Fourier变换 
+fsolve 解非线性方程组的最简单格式 
+function 函数文件头 
+functions 观察函数句柄内涵 
+function handle 函数句柄 
+funfun 数值泛函函数和ODE解算器 
+funm 计算一般矩阵函数 
+fzero 单变量函数的零点 
+
+G g 
+gallery 产生测试矩阵 
+gca 获得当前轴的柄 
+gcf 获得当前图的柄 
+general 通用指令 
+get 获得图柄 
+getframe 获得影片动画图象的帧 
+ginput 用鼠标在图上获取数据 
+global 定义全局变量 
+gradient 梯度 
+gray 线性灰度 
+grid on/off 画坐标网格线 
+
+H h 
+heaviside 单位阶跃函数 
+help 在线帮助指令 
+helpbrowser 超文本文档帮助信息 
+helpdesk 超文本文档帮助信息 
+helpwin 打开在线帮助窗 
+hidden 网线图消隐开关 
+hist 统计频数直方图 
+histfit 带拟曲线的统计频数直方图 
+hold on/off 图形的保持 
+horner 转换成嵌套形式 
+hot 黑-红-黄-白交错色图 
+hsv 饱和色彩图 
+
+I i 
+i, j 虚数单位 
+if end 条件执行语句 
+if-else-end 程序分支控制 
+ifourier Fourier反变换 
+ilaplace Laplace反变换 
+imag 复数虚部 
+image 图像 
+impulse 给出系统的冲激响应 
+ind2sub 据单下标换算出全下标 
+inf 或 Inf 无穷大 
+inline 创建内联函数 
+input 提示键盘输入 
+int 计算积分 
+int2str 整数转换为字符串 
+inv 矩阵的逆 
+invhilb Hilbert矩阵法求逆阵 
+isa 判断指定变量类别 
+ischar 若是字符串则为真 
+isempty 若是空矩阵则为真 
+isfinite 若是有限数则为真 
+isglobal 若是全局变量则为真 
+ishandle 是否图柄 
+isinf 若是无穷大则为真 
+isletter 串中是字母则为真 
+islogical 若是逻辑数则为真 
+isnan 若为非数则为真 
+isnumeric 若是数值则为真 
+isolate maple的特殊指令 
+isprime 是否质数 
+isreal 若是实数矩阵则为真 
+isspace 串中是空格则为真 
+iztrans Z反变换 
+
+J j 
+jacobian Jacobian 矩阵 
+jet 变异HSV色图 
+jordan Jordan分解 
+
+K k 
+keyboard 键盘获得控制权 
+
+L l 
+laplace Laplace变换 
+legend 形成图例说明 
+length 确定数组长度 
+light 灯光控制 
+lighting 设置照明模式 
+limit 求极限 
+line 创建线对象 
+LineStyle 图形线对象属性-线型 
+LineWidth 图形属性-线宽 
+linmod2 从SIMULINK模型得到系统的状态方程 
+linspace 线性等分向量 
+load 从磁盘调入数据变量 
+Location 图形对象属性-位置 
+log 自然对数 
+log10 常用对数 
+log2 以2为底的对数 
+logical 将数值转化为逻辑值 
+logspace 对数等分向量 
+lookfor 关键词检索 
+
+M m 
+magic 魔方阵 
+maple 进入MAPLE工作空间计算 
+Marker 图形对象属性-点形状 
+MarkerEdge- 
+Color 图形对象属性-点边界色彩 
+MarkerFace- 
+Color 图形对象属性-点域色彩 
+MaekerSize 图形对象属性-点大小 
+material 对象材质 
+max 最大值 
+md 创建目录 
+mean 平均值 
+mesh 三维网线图 
+meshgrid 用于三维曲面的分格线坐标 
+mfun 对MAPLE中若干经典特殊函数的数值计算 
+mfunlist MAPLE经典特殊函数列表 
+mhelp 查阅Maple中的库函数及其调用方法 
+min 最小值 
+minreal 状态方程最小实现 
+mkdir 创建目录 
+mod 模数求余 
+more 命令窗口分页输出的控制开关 
+movie 播放影片动画 
+moviein 影片动画内存初始化 
+mtaylor Taylor级数展开 
+
+N n 
+NaN或nan 非数 
+nargin 函数输入量的个数 
+nargout 函数输出量的个数 
+ndims 数组的维数 
+norm 矩阵或向量范数 
+normcdf 正态分布累计概率 
+normpdf 服从N分布的随机变量取值x的概率密度 
+normrnd 产生服从N分布的随机数组 
+notebook 创建或打开M-book文件 
+null 零空间 
+num2str 把数值转换为字符串 
+numden 提取公因式 
+
+O o 
+ode45 高阶法解微分方程 
+ones 全1 数组 
+optimset 
+orth 值空间 
+
+P p 
+pack 合并工作内存中的碎块 
+pascal Pascal 矩阵 
+path 控制MATLAB的搜索路径 
+pathtool 修改搜索路径 
+pause 暂停 
+pcolor 用颜色反映数据的伪色图 
+peaks 产生peaks图形数据 
+pi 3.1415926535897…. 
+pie 饼形统计图 
+pink 淡粉红色图阵 
+plot 直角坐标下线性刻度曲线 
+plot3 三维直角坐标曲线图 
+plotyy 双纵坐标图 
+polar 极坐标曲线图 
+poly 特征多项式,由根创建多项式 
+poly2sym 将多项式转换为符号多项式 
+polyfit 多项式拟合 
+polyval 求多项式的值 
+polyvalm 求矩阵多项式的值 
+pow2 2的幂 
+pretty 习惯方式显示 
+prism 光谱色图阵 
+prod 元素积 
+
+Q q 
+quad 低阶法数值积分 
+quadl 高阶法数值积分 
+quit 退出MATLAB 
+quiver 二维箭头图；主用于场强、流向 
+
+R r 
+rand 均匀分布随机数组 
+randn 正态分布随机数组 
+random 产生各种分布随机数组 
+randsrc 产生均布数组 
+rank 秩 
+real 复数实部 
+realmax 最大浮点数 
+realmin 最小正浮点数 
+rem 求余数 
+repmat 铺放模块数组 
+reshape 矩阵变维 
+residue 求部分分式表达 
+return 返回 
+roots 求多项式的根 
+rose 频数扇形图；主用于统计 
+rot90 矩阵逆时针旋转90度 
+rotate 旋转指令 
+round 四舍五入取整 
+rref 转换为行阶梯形 
+
+S s 
+save 把内存变量存入磁盘 
+sec 正割 
+sech 双曲正割 
+set 设置图形对象属性 
+shading 图形渲染模式 
+shg 显示图形窗 
+sign 函数符号,符号函数 
+simple 运用各种指令化简符号表达式 
+simplify 恒等式简化 
+simulink 打开SIMULINK集成环境 
+sin 正弦 
+sinh 双曲正弦 
+size 确定数组大小 
+slice 切片图 
+solve 求解代数方程组 
+sphere 产生球面数据 
+spinmap 颜色周期性变化操纵 
+spring 青、黄浓淡色 
+sqrt 平方根 
+square 轴属性 为方型 
+ss 产生状态方程LTI对象 
+stairs 阶梯形曲线图 
+std 标准差 
+stem 杆图 
+stem3 三维离散杆图 
+str2func 创建函数句柄 （punct） 
+strcmp 比较字符串 
+String 图形对象属性-字符串 
+subexpr 运用符号变量置换子表达式 
+subplot 创建子图 
+subs 通用置换指令 
+sum 元素和 
+summer 绿、黄浓淡色图阵 
+surf 三维表面图 
+surfc 带等高线的三维表面图 
+switch-case 多个条件分支 
+sym 产生符号对象 
+syms 定义基本符号对象 
+symsum 符号序列的求和 
+
+T t 
+tan 正切 
+tanh 双曲正切 
+taylor Taylor级数 
+text 图形上文字标注 
+tf 产生传递函数LTI对象 
+tfdata 从对象中提取传递函数分子分母多项式系数 
+tic 秒表起动 
+title 图形名 
+toc 秒表终止和显示 
+trace 迹 
+trapz 梯形数值积分 
+true 按指定大小创建全1逻辑数组 
+triplequad 三重（闭型）数值积分指令 
+type 显示文件内容 
+
+V v 
+var 求方差 
+version MATLAB 版本 
+view 设定3-D图形观测点 
+vpa 给出数值型符号结果 
+
+W w 
+what 列出当前目录上的M、MAT、MEX文件 
+which 确定指定文件所在的目录 
+while end 不确定次数重复执行语句 
+whitebg 图形底色控制 
+who 列出工作内存中的变量名 
+whos 列出工作内存中的变量细节 
+winter 蓝、绿浓淡色 
+
+X x 
+xlabel X轴名标注 
+xor 异或 
+
+Y y 
+Ycolor 图形对象属性-纵轴颜色 
+ylabel Y轴名标注 
+
+Z z 
+zeros 全零矩阵 
+zlabel Z轴名标注 
+zoom 二维图形的变焦放大 
+ztrans Z变换 
+
+Simulink模块 
+
+Add 求和模块 
+Breaker 开关 
+Current Measurement 电流测量器 
+Dc Voltage Source 直流电压源 
+Discrete Filter 离散滤波器模块 
+Gain 增益模块 
+In1 输入端口模块 
+Integrator 连续函数积分 
+Out1 输出端口模块 
+Parallel RLC Branch RLC并联支路 
+Powergui 
+Product 乘法器 
+Random Source 
+Scope 示波模块 
+Series RLC Branch RLC串联支路 
+Simulink SIMULINK基本库 
+Sine Wave 正弦波输出 
+Step 阶跃输出 
+Transfer Fcn 传递函数模块 
+Voltage Measurement 电压测量器
+
+一、MATLAB常用的基本数学函数 
+abs(x)：纯量的绝对值或向量的长度 
+angle(z)：复数z的相角(Phase angle) 
+sqrt(x)：开平方 
+real(z)：复数z的实部 
+imag(z)：复数z的虚部 
+conj(z)：复数z的共轭复数 
+round(x)：四舍五入至最近整数 
+fix(x)：无论正负，舍去小数至最近整数 
+floor(x)：地板函数，即舍去正小数至最近整数 
+ceil(x)：天花板函数，即加入正小数至最近整数 
+rat(x)：将实数x化为分数表示 
+rats(x)：将实数x化为多项分数展开 
+sign(x)：符号函数 (Signum function)。 
+当x<0时，sign(x)=-1； 
+当x=0时，sign(x)=0; 
+当x>0时，sign(x)=1。 
+
+rem(x,y)：求x除以y的馀数 
+gcd(x,y)：整数x和y的最大公因数 
+lcm(x,y)：整数x和y的最小公倍数 
+exp(x)：自然指数 
+pow2(x)：2的指数 
+log(x)：以e为底的对数，即自然对数或 
+log2(x)：以2为底的对数 
+log10(x)：以10为底的对数 
+二、MATLAB常用的三角函数 
+sin(x)：正弦函数 
+cos(x)：馀弦函数 
+tan(x)：正切函数 
+asin(x)：反正弦函数 
+acos(x)：反馀弦函数 
+atan(x)：反正切函数 
+atan2(x,y)：四象限的反正切函数 
+sinh(x)：超越正弦函数 
+cosh(x)：超越馀弦函数 
+tanh(x)：超越正切函数 
+asinh(x)：反超越正弦函数 
+acosh(x)：反超越馀弦函数 
+atanh(x)：反超越正切函数 
+三、适用於向量的常用函数有： 
+min(x): 向量x的元素的最小值 
+max(x): 向量x的元素的最大值 
+mean(x): 向量x的元素的平均值 
+median(x): 向量x的元素的中位数 
+std(x): 向量x的元素的标准差 
+diff(x): 向量x的相邻元素的差 
+sort(x): 对向量x的元素进行排序（Sorting） 
+length(x): 向量x的元素个数 
+norm(x): 向量x的欧氏（Euclidean）长度 
+sum(x): 向量x的元素总和 
+prod(x): 向量x的元素总乘积 
+cumsum(x): 向量x的累计元素总和 
+cumprod(x): 向量x的累计元素总乘积 
+dot(x, y): 向量x和y的内积 
+cross(x, y): 向量x和y的外积 
+四、MATLAB的永久常数 
+i或j：基本虚数单位（即） 
+eps：系统的浮点（Floating-point）精确度 
+inf：无限大， 例如1/0 
+nan或NaN：非数值（Not a number），例如0/0 
+pi：圆周率 p（= 3.1415926...） 
+realmax：系统所能表示的最大数值 
+realmin：系统所能表示的最小数值 
+nargin: 函数的输入引数个数 
+nargin: 函数的输出引数个数 
+五、MATLAB基本绘图函数 
+plot: x轴和y轴均为线性刻度（Linear scale） 
+loglog: x轴和y轴均为对数刻度（Logarithmic scale） 
+semilogx: x轴为对数刻度，y轴为线性刻度 
+semilogy: x轴为线性刻度，y轴为对数刻度 
+六、plot绘图函数的叁数 
+字元 颜色 字元 图线型态 
+y 黄色 . 点 
+k 黑色 o 圆 
+w 白色 x x 
+b 蓝色 + + 
+g 绿色 * * 
+r 红色 - 实线 
+c 亮青色 : 点线 
+m 锰紫色 -. 点虚线 
+-- 虚线 
+七、注解 
+xlabel('Input Value'); % x轴注解 
+ylabel('Function Value'); % y轴注解 
+title('Two Trigonometric Functions'); % 图形标题 
+legend('y = sin(x)','y = cos(x)'); % 图形注解 
+grid on; % 显示格线 
+八、二维绘图函数 
+bar 长条图 
+errorbar 图形加上误差范围 
+fplot 较精确的函数图形 
+polar 极座标图 
+hist 累计图 
+rose 极座标累计图 
+stairs 阶梯图 
+stem 针状图 
+fill 实心图 
+feather 羽毛图 
+compass 罗盘图 
+quiver 向量场图 
+回答者： edifiers2008 - 助理 二级  8-30 19:14
+1、特殊变量与常数 
+ans 计算结果的变量名 
+
+computer 确定运行的计算机 
+eps 浮点相对精度 
+
+Inf 无穷大 
+I 虚数单位 
+
+inputname 输入参数名 
+NaN 非数 
+
+nargin 输入参数个数 
+nargout 输出参数的数目 
+
+pi 圆周率 
+nargoutchk 有效的输出参数数目 
+
+realmax 最大正浮点数 
+realmin 最小正浮点数 
+
+varargin 实际输入 的参量 
+varargout 实际返回的参量 
+操作符与特殊字符 
++ 加 - 减 
+* 矩阵乘法 .* 数组乘（对应元素相乘） 
+^ 矩阵幂 .^ 数组幂（各个元素求幂） 
+\ 左除或反斜杠 / 右除或斜面杠 
+./ 数组除（对应元素除） 
+
+kron Kronecker张量积 
+: 冒号 () 圆括 
+[] 方括 . 小数点 
+.. 父目录 ... 继续 
+, 逗号（分割多条命令） ; 分号（禁止结果显示） 
+% 注释 ! 感叹号 
+' 转置或引用 = 赋值 
+== 相等 <> 不等于 
+& 逻辑与 | 逻辑或 
+~ 逻辑非 xor 逻辑异或 
+
+
+2、基本数学函数 
+abs 绝对值和复数模长 
+
+acos,acodh 反余弦，反双曲余弦 
+acot,acoth 反余切，反双曲余切 
+
+acsc,acsch 反余割，反双曲余割 
+angle 相角 
+
+asec,asech 反正割，反双曲正割 
+secant 正切 
+
+asin,asinh 反正弦，反双曲正弦 
+atan,atanh 反正切，双曲正切 
+
+tangent 正切 
+atan2 四象限反正切 
+
+ceil 向着无穷大舍入 
+complex 建立一个复数 
+
+conj 复数配对 
+cos,cosh 余弦，双曲余弦 
+
+csc,csch 余切，双曲余切 
+cot,coth 余切，双曲余切 
+
+exp 指数 
+fix 朝0方向取整 
+
+floor 朝负无穷取整 
+gcd 最大公因数 
+
+imag 复数值的虚部 
+lcm 最小公倍数 
+
+log 自然对数 
+log2 以2为底的对数 
+
+log10 常用对数 
+mod 有符号的求余 
+
+nchoosek 二项式系数和全部组合数 
+real 复数的实部 
+
+rem 相除后求余 
+round 取整为最近的整数 
+
+sec,sech 正割，双曲正割 
+sign 符号数 
+
+sin,sinh 正弦，双曲正弦 
+sqrt 平方根 
+
+tan,tanh 正切，双曲正切 
+
+
+3、基本矩阵和矩阵操作 
+blkding 从输入参量建立块对角矩阵 
+
+eye 单位矩阵 
+linespace 产生线性间隔的向量 
+
+logspace 产生对数间隔的向量 
+numel 元素个数 
+
+ones 产生全为1的数组 
+rand 均匀颁随机数和数组 
+
+randn 正态分布随机数和数组 
+zeros 建立一个全0矩阵 colon) 等间隔向量 
+cat 连接数组 
+
+diag 对角矩阵和矩阵对角线 
+fliplr 从左自右翻转矩阵 
+
+flipud 从上到下翻转矩阵 
+repmat 复制一个数组 
+
+reshape 改造矩阵 
+roy90 矩阵翻转90度 
+
+tril 矩阵的下三角 
+triu 矩阵的上三角 
+
+dot 向量点集 
+cross 向量叉集 
+
+ismember 检测一个集合的元素 
+intersect 向量的交集 
+
+setxor 向量异或集 
+setdiff 向是的差集 
+
+union 向量的并集 
+数值分析和傅立叶变换 
+cumprod 累积 
+
+cumsum 累加 
+cumtrapz 累计梯形法计算数值微分 
+
+factor 质因子 
+inpolygon 删除多边形区域内的点 
+
+max 最大值 
+mean 数组的均值 
+
+mediam 中值 
+min 最小值 
+
+perms 所有可能的转换 
+polyarea 多边形区域 
+
+primes 生成质数列表 
+prod 数组元素的乘积 
+
+rectint 矩形交集区域 
+sort 按升序排列矩阵元素 
+
+sortrows 按升序排列行 
+std 标准偏差 
+
+sum 求和 
+trapz 梯形数值积分 
+
+var 方差 
+del2 离散拉普拉斯 
+
+diff 差值和微分估计 
+gradient 数值梯度 
+
+cov 协方差矩阵 
+corrcoef 相关系数 
+
+conv2 二维卷积 
+conv 卷积和多项式乘法 
+
+filter IIR或FIR滤波器 
+deconv 反卷积和多项式除法 
+
+filter2 二维数字滤波器 
+cplxpair 将复数值分类为共轭对 
+
+fft 一维的快速傅立叶变换 
+fft2 二维快速傅立叶变换 
+
+fftshift 将FFT的DC分量移到频谱中心 
+ifft 一维快速反傅立叶变换 
+
+ifft2 二维傅立叶反变换 
+ifftn 多维快速傅立叶变换 
+
+ifftshift 反FFT偏移 
+nextpow2 最靠近的2的幂次 
+
+unwrap 校正相位角 
+
+
+多项式与插值 
+conv 卷积和多项式乘法 
+
+roots 多项式的根 
+poly 具有设定根的多项式 
+
+polyder 多项式微分 
+polyeig 多项式的特征根 
+
+polyfit 多项式拟合 
+polyint 解析多项式积分 
+
+polyval 多项式求值 
+polyvalm 矩阵变量多项式求值 
+
+residue 部分分式展开 
+interp1 一维插值 
+
+interp2 二维插值 
+interp3 三维插值 
+
+interpft 使用FFT的一维插值 
+interpn 多维插值 
+
+meshgrid 为3维点生成x和y的网格 
+ndgrid 生成多维函数和插值的数组 
+
+pchip 分段3次Hermite插值多项式 
+ppval 分段多项式的值 
+
+spline 3次样条数据插值 
+
+
+绘图函数 
+bar 竖直条图 
+
+barh 水平条图 
+hist 直方图 
+
+histc 直方图计数 
+hold 保持当前图形 
+
+loglog x,y对数坐标图 
+pie 饼状图 
+
+plot 绘二维图 
+polar 极坐标图 
+
+semilogy y轴对数坐标图 
+semilogx x轴对数坐标 
+
+subplot 绘制子图 
+bar3 数值3D竖条图 
+
+bar3h 水平3D条形图 
+comet3 3D慧星图 
+
+cylinder 圆柱体 
+fill3 填充的3D多边形 
+
+plot3 3维空间绘图 
+quiver3 3D震动（速度）图 
+
+slice 体积薄片图 
+sphere 球 
+
+stem3 绘制离散表面数据 
+waterfall 绘制瀑布 
+
+trisurf 三角表面 
+clabel 增加轮廓标签到等高线图中 
+
+datetick 数据格式标记 
+grid 加网格线 
+
+gtext 用鼠标将文本放在2D图中 
+legend 图注 
+
+plotyy 左右边都绘Y轴 
+title 标题 
+
+xlabel X轴标签 
+ylabel Y轴标签 
+
+zlabel Z轴标签 
+contour 等高线图 
+
+contourc 等高线计算 
+contourf 填充的等高线图 
+
+hidden 网格线消影 
+meshc 连接网格/等高线 
+
+mesh 具有参考轴的3D网格 
+peaks 具有两个变量的采样函数 
+
+surf 3D阴影表面图 
+surface 建立表面低层对象 
+
+surfc 海浪和等高线的结合 
+surfl 具有光照的3D阴影表面 
+
+trimesh 三角网格图 
